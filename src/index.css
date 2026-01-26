@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 20px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #475569;
+}
+
+.chart-grid line {
+  stroke: #e2e8f0;
+  stroke-dasharray: 4;
+}
+
+.dark .chart-grid line {
+  stroke: #334155;
+}
+
+/* Clases utilitarias para responsive */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-sm bg-white/70 dark:bg-slate-800/70;
+  }
+}
+
+/* Mejoras para móvil */
+@media (max-width: 640px) {
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  .material-icons-outlined {
+    font-size: 20px;
+  }
+}
+
+/* Evitar overflow horizontal */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mejorar la legibilidad en móvil */
+@media (max-width: 640px) {
+  h1, h2, h3, h4 {
+    letter-spacing: -0.025em;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+}
+
+/* Animaciones suaves */
+* {
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+button, a {
+  touch-action: manipulation;
+}
+
+/* Efectos hover para móvil */
+@media (hover: hover) and (pointer: fine) {
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1;
+  }
+  
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+}
+
+/* Soporte para Safari */
+@supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: -webkit-fill-available;
+  }
+}
