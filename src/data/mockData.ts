@@ -265,6 +265,7 @@ export const reportsData: Report[] = [
     name: 'Monthly Sales Report',
     type: 'Sales',
     period: 'December 2024',
+    format: 'PDF',
     generated: '2024-01-05',
     downloads: 45,
     size: '2.4 MB'
@@ -274,6 +275,7 @@ export const reportsData: Report[] = [
     name: 'Customer Analytics',
     type: 'Analytics',
     period: 'Q4 2024',
+    format: 'Excel',
     generated: '2024-01-03',
     downloads: 32,
     size: '3.1 MB'
@@ -283,6 +285,7 @@ export const reportsData: Report[] = [
     name: 'Inventory Report',
     type: 'Inventory',
     period: 'Weekly',
+    format: 'CSV',
     generated: '2024-01-10',
     downloads: 28,
     size: '1.8 MB'
@@ -292,6 +295,7 @@ export const reportsData: Report[] = [
     name: 'Marketing Performance',
     type: 'Marketing',
     period: 'Monthly',
+    format: 'PDF',
     generated: '2024-01-08',
     downloads: 19,
     size: '4.2 MB'
@@ -301,11 +305,13 @@ export const reportsData: Report[] = [
     name: 'Annual Revenue',
     type: 'Financial',
     period: '2024',
+    format: 'HTML',
     generated: '2024-01-01',
     downloads: 67,
     size: '5.6 MB'
   }
 ];
+
 
 // Datos para estadísticas de marketing
 export const marketingStats = [
