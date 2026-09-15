@@ -17,13 +17,13 @@ export default {
     },
     extend: {
       colors: {
-        primary: "***REMOVED***4338ca",
-        sidebar: "***REMOVED***3730a3",
-        "sidebar-dark": "***REMOVED***1e1b4b",
-        "background-light": "***REMOVED***f8fafc",
-        "background-dark": "***REMOVED***0f172a",
-        "card-light": "***REMOVED***ffffff",
-        "card-dark": "***REMOVED***1e293b",
+        primary: "#4338ca",
+        sidebar: "#3730a3",
+        "sidebar-dark": "#1e1b4b",
+        "background-light": "#f8fafc",
+        "background-dark": "#0f172a",
+        "card-light": "#ffffff",
+        "card-dark": "#1e293b",
       },
       fontFamily: {
         display: ["Poppins", "sans-serif"],

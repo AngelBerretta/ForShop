@@ -13,7 +13,7 @@ import {
 // Datos para Orders
 export const ordersData: Order[] = [
   {
-    id: '***REMOVED***ORD-7842',
+    id: '#ORD-7842',
     customer: 'John Smith',
     date: '2024-01-15',
     amount: '$149.99',
@@ -22,7 +22,7 @@ export const ordersData: Order[] = [
     items: 3
   },
   {
-    id: '***REMOVED***ORD-7841',
+    id: '#ORD-7841',
     customer: 'Maria Garcia',
     date: '2024-01-15',
     amount: '$89.99',
@@ -31,7 +31,7 @@ export const ordersData: Order[] = [
     items: 1
   },
   {
-    id: '***REMOVED***ORD-7840',
+    id: '#ORD-7840',
     customer: 'Robert Johnson',
     date: '2024-01-14',
     amount: '$239.99',
@@ -40,7 +40,7 @@ export const ordersData: Order[] = [
     items: 5
   },
   {
-    id: '***REMOVED***ORD-7839',
+    id: '#ORD-7839',
     customer: 'Sarah Williams',
     date: '2024-01-14',
     amount: '$59.99',
@@ -49,7 +49,7 @@ export const ordersData: Order[] = [
     items: 2
   },
   {
-    id: '***REMOVED***ORD-7838',
+    id: '#ORD-7838',
     customer: 'Michael Brown',
     date: '2024-01-13',
     amount: '$199.99',
@@ -58,7 +58,7 @@ export const ordersData: Order[] = [
     items: 4
   },
   {
-    id: '***REMOVED***ORD-7837',
+    id: '#ORD-7837',
     customer: 'Emily Davis',
     date: '2024-01-13',
     amount: '$129.99',
@@ -67,7 +67,7 @@ export const ordersData: Order[] = [
     items: 3
   },
   {
-    id: '***REMOVED***ORD-7836',
+    id: '#ORD-7836',
     customer: 'David Wilson',
     date: '2024-01-12',
     amount: '$79.99',
@@ -76,7 +76,7 @@ export const ordersData: Order[] = [
     items: 1
   },
   {
-    id: '***REMOVED***ORD-7835',
+    id: '#ORD-7835',
     customer: 'Lisa Miller',
     date: '2024-01-12',
     amount: '$299.99',

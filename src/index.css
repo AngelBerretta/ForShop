@@ -15,21 +15,21 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: ***REMOVED***cbd5e1;
+  background-color: #cbd5e1;
   border-radius: 20px;
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background-color: ***REMOVED***475569;
+  background-color: #475569;
 }
 
 .chart-grid line {
-  stroke: ***REMOVED***e2e8f0;
+  stroke: #e2e8f0;
   stroke-dasharray: 4;
 }
 
 .dark .chart-grid line {
-  stroke: ***REMOVED***334155;
+  stroke: #334155;
 }
 
 /* Clases utilitarias para responsive */

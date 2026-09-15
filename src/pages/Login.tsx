@@ -154,9 +154,9 @@ const Login: React.FC = () => {
             <p className="text-sm text-slate-600 dark:text-slate-400">
               © 2024 ForShop Inc. All rights reserved.
               <span className="mx-2">•</span>
-              <a href="***REMOVED***" className="hover:text-primary transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
               <span className="mx-2">•</span>
-              <a href="***REMOVED***" className="hover:text-primary transition-colors">Terms of Service</a>
+              <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
             </p>
           </div>
         </footer>

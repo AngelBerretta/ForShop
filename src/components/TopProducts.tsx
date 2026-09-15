@@ -151,7 +151,7 @@ const TopProducts: React.FC = () => {
         <h3 className="text-sm md:text-base font-bold text-slate-800 dark:text-white">
           Top selling products
         </h3>
-        <a className="text-xs font-semibold text-primary hover:text-indigo-600 flex items-center" href="***REMOVED***">
+        <a className="text-xs font-semibold text-primary hover:text-indigo-600 flex items-center" href="#">
           See all <span className="material-icons-outlined text-sm ml-1">chevron_right</span>
         </a>
       </div>

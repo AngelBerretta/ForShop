@@ -126,25 +126,25 @@ const VisitorsChart: React.FC = () => {
         <svg className="w-full h-full pl-5 md:pl-6 pb-3 md:pb-4 overflow-visible" viewBox="0 0 300 100" preserveAspectRatio="xMidYMid meet">
           <defs>
             <linearGradient id="gradientWave" x1="0" x2="0" y1="0" y2="1">
-              <stop offset="0%" stopColor="***REMOVED***4338ca" stopOpacity="0.2" />
-              <stop offset="100%" stopColor="***REMOVED***4338ca" stopOpacity="0" />
+              <stop offset="0%" stopColor="#4338ca" stopOpacity="0.2" />
+              <stop offset="100%" stopColor="#4338ca" stopOpacity="0" />
             </linearGradient>
           </defs>
           <path
             d="M0,50 C30,70 60,80 90,50 C120,20 150,70 180,75 C210,80 240,40 270,50 C290,55 300,70 300,70 L300,100 L0,100 Z"
-            fill="url(***REMOVED***gradientWave)"
+            fill="url(#gradientWave)"
           />
           <path
             d="M0,50 C30,70 60,80 90,50 C120,20 150,70 180,75 C210,80 240,40 270,50 C290,55 300,70 300,70"
             fill="none"
-            stroke="***REMOVED***4338ca"
+            stroke="#4338ca"
             strokeLinecap="round"
             strokeWidth="1.5"
           />
-          <circle className="dark:stroke-slate-800" cx="0" cy="50" fill="***REMOVED***4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
-          <circle className="dark:stroke-slate-800" cx="90" cy="50" fill="***REMOVED***4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
-          <circle className="dark:stroke-slate-800" cx="180" cy="75" fill="***REMOVED***4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
-          <circle className="dark:stroke-slate-800" cx="270" cy="50" fill="***REMOVED***4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
+          <circle className="dark:stroke-slate-800" cx="0" cy="50" fill="#4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
+          <circle className="dark:stroke-slate-800" cx="90" cy="50" fill="#4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
+          <circle className="dark:stroke-slate-800" cx="180" cy="75" fill="#4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
+          <circle className="dark:stroke-slate-800" cx="270" cy="50" fill="#4338ca" r="2.5" stroke="white" strokeWidth="1.5" />
         </svg>
         <div className="absolute left-5 md:left-6 right-0 bottom-0 flex justify-between text-[8px] md:text-[10px] text-slate-400 uppercase tracking-wider">
           <span>Mon</span>

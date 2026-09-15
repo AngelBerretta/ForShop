@@ -1,10 +1,10 @@
-***REMOVED*** 🛒 Ecommerce Admin Dashboard
+# 🛒 Ecommerce Admin Dashboard
 
 Panel de administración moderno para ecommerce desarrollado con **React + TypeScript**, enfocado en una UI limpia, componentes reutilizables y una arquitectura preparada para escalar y conectarse a una API real.
 
 ---
 
-***REMOVED******REMOVED*** 🚀 Características principales
+## 🚀 Características principales
 
 * 📦 Gestión de productos (crear, editar, eliminar)
 * 🧾 Gestión de órdenes
@@ -17,7 +17,7 @@ Panel de administración moderno para ecommerce desarrollado con **React + TypeS
 
 ---
 
-***REMOVED******REMOVED*** 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 * **React 18**
 * **TypeScript**
@@ -28,25 +28,25 @@ Panel de administración moderno para ecommerce desarrollado con **React + TypeS
 
 ---
 
-***REMOVED******REMOVED*** 📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
 ```
 ecommerce-admin/
 ├── src/
 │   ├── components/
-│   │   ├── modals/          ***REMOVED*** Modales para CRUD operations
+│   │   ├── modals/          # Modales para CRUD operations
 │   │   │   ├── OrderModal.tsx
 │   │   │   ├── ProductModal.tsx
 │   │   │   ├── CampaignModal.tsx
 │   │   │   └── ReportModal.tsx
-│   │   ├── dialogs/         ***REMOVED*** Diálogos de confirmación
+│   │   ├── dialogs/         # Diálogos de confirmación
 │   │   │   └── DeleteDialog.tsx
-│   │   └── ui/              ***REMOVED*** Componentes reutilizables
+│   │   └── ui/              # Componentes reutilizables
 │   │       ├── Sidebar.tsx
 │   │       ├── Header.tsx
 │   │       ├── StatsCard.tsx
 │   │       └── PageHeader.tsx
-│   ├── pages/               ***REMOVED*** Páginas principales
+│   ├── pages/               # Páginas principales
 │   │   ├── Dashboard.tsx
 │   │   ├── Orders.tsx
 │   │   ├── Products.tsx
@@ -54,15 +54,15 @@ ecommerce-admin/
 │   │   ├── Rates.tsx
 │   │   ├── Reports.tsx
 │   │   └── Login.tsx
-│   ├── context/             ***REMOVED*** Gestión de estado global
+│   ├── context/             # Gestión de estado global
 │   │   └── AuthContext.tsx
-│   ├── hooks/               ***REMOVED*** Custom hooks
+│   ├── hooks/               # Custom hooks
 │   │   └── useAuth.ts
-│   ├── types/               ***REMOVED*** TypeScript type definitions
+│   ├── types/               # TypeScript type definitions
 │   │   └── index.ts
-│   ├── data/                ***REMOVED*** Mock data
+│   ├── data/                # Mock data
 │   │   └── mockData.ts
-│   └── utils/               ***REMOVED*** Utility functions
+│   └── utils/               # Utility functions
 ├── public/
 ├── index.html
 ├── package.json
@@ -73,7 +73,7 @@ ecommerce-admin/
 
 ---
 
-***REMOVED******REMOVED*** 🧾 Tipos principales (TypeScript)
+## 🧾 Tipos principales (TypeScript)
 
 El proyecto utiliza tipado estricto para evitar errores en tiempo de desarrollo.
 
@@ -93,9 +93,9 @@ src/types/index.ts
 
 ---
 
-***REMOVED******REMOVED*** 🧩 Componentes destacados
+## 🧩 Componentes destacados
 
-***REMOVED******REMOVED******REMOVED*** 🔹 ProductsTable
+### 🔹 ProductsTable
 
 Tabla paginada con:
 
@@ -103,11 +103,11 @@ Tabla paginada con:
 * Búsqueda por nombre / ID
 * Acciones: ver, editar y eliminar
 
-***REMOVED******REMOVED******REMOVED*** 🔹 OrdersTable
+### 🔹 OrdersTable
 
 Listado de órdenes con estados, acciones y simulación CRUD.
 
-***REMOVED******REMOVED******REMOVED*** 🔹 Modales
+### 🔹 Modales
 
 * `ProductModal`
 * `OrderModal`
@@ -116,22 +116,22 @@ Reutilizables para **crear y editar** según si se pasa un elemento seleccionado
 
 ---
 
-***REMOVED******REMOVED*** ⚙️ Instalación y uso
+## ⚙️ Instalación y uso
 
-***REMOVED******REMOVED******REMOVED*** 1️⃣ Clonar el repositorio
+### 1️⃣ Clonar el repositorio
 
 ```bash
 git clone https://github.com/tu-usuario/ecommerce-admin.git
 cd ecommerce-admin
 ```
 
-***REMOVED******REMOVED******REMOVED*** 2️⃣ Instalar dependencias
+### 2️⃣ Instalar dependencias
 
 ```bash
 npm install
 ```
 
-***REMOVED******REMOVED******REMOVED*** 3️⃣ Ejecutar en desarrollo
+### 3️⃣ Ejecutar en desarrollo
 
 ```bash
 npm run dev
@@ -145,7 +145,7 @@ http://localhost:5173
 
 ---
 
-***REMOVED******REMOVED*** 🔄 Datos simulados
+## 🔄 Datos simulados
 
 Actualmente el proyecto utiliza datos mockeados para simular llamadas a API:
 
@@ -157,7 +157,7 @@ Las funciones `handleSubmitProduct` y `handleSubmitOrder` están preparadas para
 
 ---
 
-***REMOVED******REMOVED*** 🧠 Decisiones técnicas
+## 🧠 Decisiones técnicas
 
 * Uso de `Partial<T>` para formularios (create / edit)
 * Estado controlado desde las páginas principales
@@ -166,7 +166,7 @@ Las funciones `handleSubmitProduct` y `handleSubmitOrder` están preparadas para
 
 ---
 
-***REMOVED******REMOVED*** 🧪 Linting y calidad de código
+## 🧪 Linting y calidad de código
 
 * Warnings de TypeScript corregidos
 * Código preparado para `strict: true`
@@ -174,7 +174,7 @@ Las funciones `handleSubmitProduct` y `handleSubmitOrder` están preparadas para
 
 ---
 
-***REMOVED******REMOVED*** 📌 Próximas mejoras
+## 📌 Próximas mejoras
 
 * 🔌 Conexión a API real (JSON Server / Backend propio)
 * 🔐 Autenticación y roles
@@ -184,7 +184,7 @@ Las funciones `handleSubmitProduct` y `handleSubmitOrder` están preparadas para
 
 ---
 
-***REMOVED******REMOVED*** 👤 Autor
+## 👤 Autor
 
 **Angel Gabriel Berretta**
 Desarrollador Front‑End / Full Stack en formación
@@ -195,7 +195,7 @@ Desarrollador Front‑End / Full Stack en formación
 
 ---
 
-***REMOVED******REMOVED*** 📄 Licencia
+## 📄 Licencia
 
 Este proyecto es de uso educativo y demostrativo. Libre para modificar y reutilizar.
 

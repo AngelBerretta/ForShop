@@ -61,7 +61,7 @@ const SalesChart: React.FC = () => {
           <path
             d="M0,150 C50,130 100,120 150,110 C200,100 250,90 300,50 C350,10 400,20 500,40"
             fill="none"
-            stroke="***REMOVED***60a5fa"
+            stroke="#60a5fa"
             strokeLinecap="round"
             strokeWidth="2.5"
           />
@@ -70,29 +70,29 @@ const SalesChart: React.FC = () => {
           <path
             d="M0,170 C50,150 100,150 150,130 C200,110 250,120 300,80 C350,40 400,60 500,20"
             fill="none"
-            stroke="***REMOVED***f472b6"
+            stroke="#f472b6"
             strokeLinecap="round"
             strokeWidth="2.5"
           />
           
           {/* Tooltip hover (solo en desktop) */}
           <g className="hidden lg:block" transform="translate(250, 75)">
-            <rect fill="***REMOVED***4338ca" height="45" rx="8" width="120" x="-60" y="-55" />
-            <text fill="***REMOVED***a5b4fc" fontSize="9" textAnchor="middle" x="0" y="-35">
+            <rect fill="#4338ca" height="45" rx="8" width="120" x="-60" y="-55" />
+            <text fill="#a5b4fc" fontSize="9" textAnchor="middle" x="0" y="-35">
               10.06 - 17.06.2024
             </text>
             <text fill="white" fontSize="11" fontWeight="bold" textAnchor="middle" x="0" y="-20">
               $ 7,320.89
             </text>
-            <circle cx="0" cy="5" fill="***REMOVED***4338ca" r="5" stroke="white" strokeWidth="2" />
-            <line stroke="***REMOVED***4338ca" strokeDasharray="4" strokeWidth="1" x1="0" x2="0" y1="5" y2="125" />
+            <circle cx="0" cy="5" fill="#4338ca" r="5" stroke="white" strokeWidth="2" />
+            <line stroke="#4338ca" strokeDasharray="4" strokeWidth="1" x1="0" x2="0" y1="5" y2="125" />
           </g>
           
           {/* Puntos en las líneas */}
-          <circle className="dark:stroke-slate-800" cx="150" cy="110" fill="***REMOVED***60a5fa" r="3.5" stroke="white" strokeWidth="2" />
-          <circle className="dark:stroke-slate-800" cx="150" cy="130" fill="***REMOVED***f472b6" r="3.5" stroke="white" strokeWidth="2" />
-          <circle className="dark:stroke-slate-800" cx="300" cy="50" fill="***REMOVED***60a5fa" r="3.5" stroke="white" strokeWidth="2" />
-          <circle className="dark:stroke-slate-800" cx="300" cy="80" fill="***REMOVED***f472b6" r="3.5" stroke="white" strokeWidth="2" />
+          <circle className="dark:stroke-slate-800" cx="150" cy="110" fill="#60a5fa" r="3.5" stroke="white" strokeWidth="2" />
+          <circle className="dark:stroke-slate-800" cx="150" cy="130" fill="#f472b6" r="3.5" stroke="white" strokeWidth="2" />
+          <circle className="dark:stroke-slate-800" cx="300" cy="50" fill="#60a5fa" r="3.5" stroke="white" strokeWidth="2" />
+          <circle className="dark:stroke-slate-800" cx="300" cy="80" fill="#f472b6" r="3.5" stroke="white" strokeWidth="2" />
         </svg>
         
         <div className="absolute left-6 md:left-8 lg:left-10 right-0 bottom-0 flex justify-between text-[10px] md:text-xs text-slate-400 px-2 md:px-4">
